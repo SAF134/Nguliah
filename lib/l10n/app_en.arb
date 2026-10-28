@@ -1,0 +1,621 @@
+{
+  "@@locale": "en",
+  "appTitle": "Nguliah",
+  "appTagline": "Manage your grades, schedule, tasks, and campus events in one place.",
+  "splashLoading": "Loading academic data...",
+  "navHome": "Home",
+  "navGrades": "Grades",
+  "navSchedule": "Schedule",
+  "navTasks": "Tasks",
+  "navEvents": "Events",
+  "screenOnboardingTitle": "Discover Nguliah",
+  "screenOnboardingSubtitle": "4 simple steps to organize your studies offline.",
+  "onboardingSlide1Title": "Track Grades & GPA",
+  "onboardingSlide1Desc": "Record semester grades, manage retaken courses, and view accurate semester and cumulative GPA.",
+  "onboardingSlide2Title": "Class Schedule & Attendance",
+  "onboardingSlide2Desc": "Organize weekly classes, detect schedule conflicts, and log attendance for every session.",
+  "onboardingSlide3Title": "Manage Tasks & Deadlines",
+  "onboardingSlide3Desc": "Monitor remaining time for assignments with calendar markers and timely reminders.",
+  "onboardingSlide4Title": "Organize Campus Events",
+  "onboardingSlide4Desc": "Plan student organization activities and non-class events in a clean monthly calendar.",
+  "onboardingSlideIndicator": "Slide {current} of {total}",
+  "@onboardingSlideIndicator": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "slideToStartLabel": "Slide to Start",
+  "slideToConfirmAction": "Confirm without sliding",
+  "screenAuthTitle": "Student Profile",
+  "screenAuthSubtitle": "Fill in your basic details to personalize the app. All data stays on this device.",
+  "fieldFullNameLabel": "Full Name",
+  "fieldFullNameHint": "Example: Rani Putri",
+  "fieldFullNameError": "Full name is required. Enter at least 2 characters.",
+  "fieldUniversityLabel": "University / Institution",
+  "fieldUniversityHint": "Example: University of Indonesia",
+  "fieldUniversityError": "University is required. Enter your institution name.",
+  "fieldFacultyLabel": "Faculty / Department",
+  "fieldFacultyHint": "Example: Faculty of Computer Science",
+  "fieldFacultyError": "Faculty is required. Enter your faculty or department name.",
+  "fieldMajorLabel": "Study Program / Major",
+  "fieldMajorHint": "Example: Information Systems",
+  "fieldMajorError": "Study program is required. Enter your major.",
+  "fieldEntryYearLabel": "Entry Year",
+  "fieldEntryYearHint": "Select entry year",
+  "fieldEntryYearError": "Entry year is required. Select a valid year.",
+  "screenHomeTitle": "Home",
+  "screenGradesTitle": "Academic Grades",
+  "screenScheduleTitle": "Class Schedule",
+  "screenTasksTitle": "Course Tasks",
+  "screenEventsTitle": "Campus Events",
+  "screenSettingsTitle": "Settings",
+  "actionContinue": "Continue",
+  "actionSkip": "Skip",
+  "actionStart": "Get Started",
+  "actionSaveAndStart": "Save & Start",
+  "actionYes": "Yes",
+  "actionNo": "No",
+  "actionReset": "Reset",
+  "actionConfirm": "Confirm",
+  "actionSave": "Save",
+  "actionCancel": "Cancel",
+  "actionDelete": "Delete",
+  "actionEdit": "Edit",
+  "actionUndo": "Undo",
+  "actionRetake": "Retake",
+  "actionClose": "Close",
+  "actionOpenSettings": "Open Settings",
+  "actionRetry": "Retry",
+  "actionAddFirstGrade": "Add First Grade",
+  "actionAddGrade": "Add Grade",
+  "actionAddSchedule": "Add Schedule",
+  "actionAddTask": "Add Task",
+  "actionAddEvent": "Add Event",
+  "actionRecordAttendance": "Log Attendance",
+  "actionAttendanceRecap": "Attendance Recap",
+  "emptyHomeTitle": "No academic data yet",
+  "emptyHomeDescription": "Start recording your grades or class schedule to see your summary here.",
+  "emptyGradesTitle": "No grades recorded yet",
+  "emptyGradesDescription": "Add your courses and semester grades to automatically calculate GPS and GPA.",
+  "emptyScheduleTitle": "No schedule yet",
+  "emptyScheduleDescription": "Set up your weekly schedule so you never miss a class session.",
+  "emptyTasksTitle": "No tasks",
+  "emptyTasksDescription": "You are all caught up. Add a new task whenever you have an upcoming deadline.",
+  "emptyCompletedTasksTitle": "No completed tasks yet",
+  "emptyCompletedTasksDescription": "Mark active tasks as completed to view your completion history here.",
+  "emptyEventsTitle": "No events",
+  "emptyEventsDescription": "There are no campus or organization events scheduled on the selected date.",
+  "emptySettingsDescription": "Manage your profile, language, grade conversion, notifications, and data backup.",
+  "errorLoadData": "Failed to load data",
+  "permissionNotificationDeniedBanner": "Notification permission denied. Enable it in settings to receive timely reminders.",
+  "statIpkLabel": "GPA",
+  "statIpsSemesterLabel": "GPS {semester}",
+  "@statIpsSemesterLabel": {
+    "placeholders": {
+      "semester": {
+        "type": "int"
+      }
+    }
+  },
+  "statCompletedSksLabel": "Completed Credits",
+  "statCompletedCoursesLabel": "Completed Courses",
+  "filterAllSemesters": "All",
+  "semesterLabel": "Semester {semester}",
+  "@semesterLabel": {
+    "placeholders": {
+      "semester": {
+        "type": "int"
+      }
+    }
+  },
+  "semesterShortLabel": "Sem {semester}",
+  "@semesterShortLabel": {
+    "placeholders": {
+      "semester": {
+        "type": "int"
+      }
+    }
+  },
+  "sksUnit": "{sks} Credits",
+  "@sksUnit": {
+    "placeholders": {
+      "sks": {
+        "type": "int"
+      }
+    }
+  },
+  "gradeNeedsRetake": "Retake required",
+  "gradeRetakeBadge": "Retake",
+  "gradeUsedInIpk": "Counted in GPA",
+  "gradeNotUsedInIpk": "History (not counted in GPA)",
+  "gradeRetakeOfInfo": "Retake of Sem {semester} ({gradeIndex})",
+  "@gradeRetakeOfInfo": {
+    "placeholders": {
+      "semester": {
+        "type": "int"
+      },
+      "gradeIndex": {
+        "type": "String"
+      }
+    }
+  },
+  "gradeFormAddTitle": "Add Grade",
+  "gradeFormEditTitle": "Edit Grade",
+  "gradeFieldCourseNameLabel": "Course Name",
+  "gradeFieldCourseNameHint": "Example: Basic Statistics",
+  "gradeFieldCourseNameError": "Course name is required. Enter the course name.",
+  "gradeFieldSemesterLabel": "Semester (1–14)",
+  "gradeFieldSemesterError": "Invalid semester. Select a semester between 1 and 14.",
+  "gradeFieldSksLabel": "Credits (SKS)",
+  "gradeFieldSksHint": "Example: 3",
+  "gradeFieldSksError": "Invalid credits. Enter a number greater than 0.",
+  "gradeFieldIndexLabel": "Grade Index",
+  "gradeFieldRetakeLabel": "Retake / Improvement of (Optional)",
+  "gradeRetakeNoneOption": "Not a retake (New course)",
+  "gradeRetakeSuggestionBanner": "Found \"{courseName}\" in Semester {semester} (grade {gradeIndex}). Link as a retake?",
+  "@gradeRetakeSuggestionBanner": {
+    "placeholders": {
+      "courseName": {
+        "type": "String"
+      },
+      "semester": {
+        "type": "int"
+      },
+      "gradeIndex": {
+        "type": "String"
+      }
+    }
+  },
+  "gradeRetakeLinkAction": "Link",
+  "gradeDeleteDialogTitle": "Delete Course Grade?",
+  "gradeDeleteDialogMessage": "Entry \"{courseName}\" (Semester {semester}) will be deleted and your GPA will be recalculated.",
+  "@gradeDeleteDialogMessage": {
+    "placeholders": {
+      "courseName": {
+        "type": "String"
+      },
+      "semester": {
+        "type": "int"
+      }
+    }
+  },
+  "toastGradeSaved": "Grade saved",
+  "toastGradeDeleted": "Grade deleted",
+  "semanticsCourseGradeCard": "{courseName}, {sks} credits, grade {gradeIndex}, semester {semester}",
+  "@semanticsCourseGradeCard": {
+    "placeholders": {
+      "courseName": {
+        "type": "String"
+      },
+      "sks": {
+        "type": "int"
+      },
+      "gradeIndex": {
+        "type": "String"
+      },
+      "semester": {
+        "type": "int"
+      }
+    }
+  },
+  "semanticsGradeIndexOption": "Grade index {gradeIndex}",
+  "@semanticsGradeIndexOption": {
+    "placeholders": {
+      "gradeIndex": {
+        "type": "String"
+      }
+    }
+  },
+  "dayAll": "All",
+  "dayMonday": "Monday",
+  "dayTuesday": "Tuesday",
+  "dayWednesday": "Wednesday",
+  "dayThursday": "Thursday",
+  "dayFriday": "Friday",
+  "daySaturday": "Saturday",
+  "daySunday": "Sunday",
+  "dayShortMon": "Mon",
+  "dayShortTue": "Tue",
+  "dayShortWed": "Wed",
+  "dayShortThu": "Thu",
+  "dayShortFri": "Fri",
+  "dayShortSat": "Sat",
+  "dayShortSun": "Sun",
+  "scheduleFormAddTitle": "Add Class Schedule",
+  "scheduleFormEditTitle": "Edit Class Schedule",
+  "scheduleFieldDayLabel": "Class Day",
+  "scheduleFieldStartTimeLabel": "Start Time (HH:MM)",
+  "scheduleFieldStartTimeHint": "08:00",
+  "scheduleFieldEndTimeLabel": "End Time (HH:MM)",
+  "scheduleFieldEndTimeHint": "10:00",
+  "scheduleFieldTimeFormatError": "Invalid time format. Use HH:MM format (e.g. 08:30).",
+  "scheduleFieldEndTimeError": "End time must be after start time.",
+  "scheduleFieldRoomLabel": "Room",
+  "scheduleFieldRoomHint": "Example: Building A R.302",
+  "scheduleFieldRoomError": "Room is required. Enter the room name or code.",
+  "scheduleConflictWarning": "Schedule conflicts with \"{courseName}\" ({timeRange}). You can still save this schedule.",
+  "@scheduleConflictWarning": {
+    "placeholders": {
+      "courseName": {
+        "type": "String"
+      },
+      "timeRange": {
+        "type": "String"
+      }
+    }
+  },
+  "scheduleDeleteDialogTitle": "Delete Class Schedule?",
+  "scheduleDeleteDialogMessage": "Schedule \"{courseName}\" ({dayName}) will be deleted.",
+  "@scheduleDeleteDialogMessage": {
+    "placeholders": {
+      "courseName": {
+        "type": "String"
+      },
+      "dayName": {
+        "type": "String"
+      }
+    }
+  },
+  "toastScheduleSaved": "Schedule saved",
+  "toastScheduleDeleted": "Schedule deleted",
+  "attendanceSheetTitle": "Class Attendance",
+  "attendanceDateLabel": "Session Date",
+  "attendanceStatusLabel": "Attendance Status",
+  "attendanceStatusPresent": "Present",
+  "attendanceStatusSick": "Sick",
+  "attendanceStatusPermission": "Excused",
+  "attendanceStatusAbsent": "Absent",
+  "attendanceNotesLabel": "Session Notes",
+  "attendanceNotesHint": "Example: Discussed Chapter 3",
+  "attendanceRecordedAtInfo": "Recorded automatically upon saving",
+  "toastAttendanceSaved": "Attendance saved",
+  "attendanceRecapTitle": "Attendance Recap per Course",
+  "attendanceRecapEmpty": "No attendance records yet.",
+  "attendanceRecapSummary": "{presentCount} Present of {totalCount} sessions ({percentage}%)",
+  "@attendanceRecapSummary": {
+    "placeholders": {
+      "presentCount": {
+        "type": "int"
+      },
+      "totalCount": {
+        "type": "int"
+      },
+      "percentage": {
+        "type": "String"
+      }
+    }
+  },
+  "attendanceRecapBreakdown": "Present: {present} · Sick: {sick} · Excused: {permission} · Absent: {absent}",
+  "@attendanceRecapBreakdown": {
+    "placeholders": {
+      "present": {
+        "type": "int"
+      },
+      "sick": {
+        "type": "int"
+      },
+      "permission": {
+        "type": "int"
+      },
+      "absent": {
+        "type": "int"
+      }
+    }
+  },
+  "semanticsScheduleCard": "{courseName}, {dayName} at {timeRange}, room {room}",
+  "@semanticsScheduleCard": {
+    "placeholders": {
+      "courseName": {
+        "type": "String"
+      },
+      "dayName": {
+        "type": "String"
+      },
+      "timeRange": {
+        "type": "String"
+      },
+      "room": {
+        "type": "String"
+      }
+    }
+  },
+  "calendarPrevMonth": "Previous month",
+  "calendarNextMonth": "Next month",
+  "calendarClearDateFilter": "Show all dates",
+  "semanticsCalendarDayMarkers": "Date {day}/{month}/{year}, {count} markers",
+  "@semanticsCalendarDayMarkers": {
+    "placeholders": {
+      "day": {
+        "type": "int"
+      },
+      "month": {
+        "type": "int"
+      },
+      "year": {
+        "type": "int"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "taskTabActive": "Active",
+  "taskTabCompleted": "Completed (Recap)",
+  "taskFormAddTitle": "Add Course Task",
+  "taskFormEditTitle": "Edit Course Task",
+  "taskFieldDescriptionLabel": "Task Description",
+  "taskFieldDescriptionHint": "Example: Lab Report Module 2",
+  "taskFieldDescriptionError": "Task description is required. Enter a brief description.",
+  "taskFieldDueDateLabel": "Due Date (YYYY-MM-DD)",
+  "taskFieldDueDateHint": "2026-11-05",
+  "taskFieldDueDateError": "Invalid date format. Use YYYY-MM-DD format.",
+  "taskFieldDueTimeLabel": "Due Time (HH:MM)",
+  "taskFieldDueTimeHint": "23:59",
+  "taskStatusOverdue": "Overdue",
+  "taskStatusUrgentHours": "Urgent · {hours}h left",
+  "@taskStatusUrgentHours": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
+  "taskStatusRemainingDays": "{days} days left",
+  "@taskStatusRemainingDays": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "taskCompletedAtLabel": "Completed on {dateTime}",
+  "@taskCompletedAtLabel": {
+    "placeholders": {
+      "dateTime": {
+        "type": "String"
+      }
+    }
+  },
+  "taskMarkComplete": "Mark task as completed",
+  "taskUnmarkComplete": "Unmark task completion",
+  "taskDeleteDialogTitle": "Delete Course Task?",
+  "taskDeleteDialogMessage": "Task \"{courseName}\" will be deleted.",
+  "@taskDeleteDialogMessage": {
+    "placeholders": {
+      "courseName": {
+        "type": "String"
+      }
+    }
+  },
+  "toastTaskSaved": "Task saved",
+  "toastTaskCompleted": "Task completed",
+  "toastTaskUncompleted": "Task returned to active list",
+  "toastTaskDeleted": "Task deleted",
+  "eventFormAddTitle": "Add Campus Event",
+  "eventFormEditTitle": "Edit Campus Event",
+  "eventFieldNameLabel": "Event Name",
+  "eventFieldNameHint": "Example: Student Council Meeting",
+  "eventFieldNameError": "Event name is required. Enter the event name.",
+  "eventFieldDescriptionLabel": "Event Description",
+  "eventFieldDescriptionHint": "Example: Discussing this semester's work program",
+  "eventFieldDescriptionError": "Event description is required. Enter a brief description.",
+  "eventFieldDateLabel": "Event Date (YYYY-MM-DD)",
+  "eventFieldDateHint": "2026-11-10",
+  "eventDeleteDialogTitle": "Delete Event?",
+  "eventDeleteDialogMessage": "Event \"{eventName}\" will be deleted.",
+  "@eventDeleteDialogMessage": {
+    "placeholders": {
+      "eventName": {
+        "type": "String"
+      }
+    }
+  },
+  "toastEventSaved": "Event saved",
+  "toastEventDeleted": "Event deleted",
+  "semanticsLoading": "Loading",
+  "semanticsOpenSettings": "Open Profile and App Settings",
+  "homeGreeting": "Hello, {name}!",
+  "@homeGreeting": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "homeDefaultStudentName": "Student",
+  "homeTodayScheduleTitle": "Today's Schedule",
+  "homeTodayScheduleEmpty": "No classes scheduled for today.",
+  "homeWeekTasksTitle": "Tasks Due Within 7 Days",
+  "homeWeekTasksEmpty": "No tasks due within the next 7 days.",
+  "homeIpsTrendTitle": "Semester GPS Trend",
+  "homeIpsTrendEmpty": "Add course grades to view your semester GPS trend.",
+  "homeGradeDistributionTitle": "Grade Distribution (Effective Entries)",
+  "homeGradeDistributionEmpty": "No grade distribution recorded yet.",
+  "homeChartTableSummaryLabel": "Accessible Chart Summary",
+  "actionExport": "Export",
+  "exportSheetTitle": "Export Document / Image",
+  "exportScopeLabel": "Data Scope",
+  "exportScopeHomeStats": "Home Statistics (GPA & Grade Distribution)",
+  "exportScopeAllGrades": "All Semesters Transcript & GPA",
+  "exportScopeScheduleAttendance": "Weekly Schedule & Attendance Recap",
+  "exportFormatLabel": "File Format",
+  "exportFormatPdf": "PDF",
+  "exportFormatPng": "PNG (Image)",
+  "exportFormatJpg": "JPG",
+  "exportGenerateAndShare": "Export",
+  "exportProgressLoading": "Generating export file...",
+  "toastExportSuccess": "Export file is ready to share",
+  "errorExportFailed": "Failed to generate export file",
+  "settingsGroupAccount": "Account & Profile",
+  "settingsGroupPreferences": "Academic Preferences",
+  "settingsGroupData": "Reminders & Local Data",
+  "settingsGroupAbout": "About & Support",
+  "settingsEditProfileTitle": "Student Profile",
+  "settingsEditProfileSubtitle": "Update biodata and local profile photo",
+  "settingsPickPhotoGallery": "Choose from Gallery",
+  "settingsPickPhotoCamera": "Take Camera Photo",
+  "settingsRemovePhoto": "Remove Photo",
+  "toastProfileUpdated": "Profile updated",
+  "settingsLanguageTitle": "App Language",
+  "settingsLanguageIndonesian": "Indonesia",
+  "settingsLanguageEnglish": "English",
+  "toastLanguageChanged": "Language updated",
+  "settingsConversionTitle": "Grade Conversion",
+  "settingsConversionSubtitle": "Grade weights and conversion customization",
+  "settingsMinPassingGradeLabel": "Minimum Passing Grade",
+  "settingsRetakeRuleLabel": "Retake Grade Rule (GPA)",
+  "settingsRetakeRuleHighest": "Highest Grade (Default)",
+  "settingsRetakeRuleLatest": "Latest Grade",
+  "settingsResetConversion": "Reset",
+  "toastConversionSaved": "Conversion rules saved & GPA recalculated",
+  "settingsFormulaGuideTitle": "GPS & GPA Formula Guide",
+  "settingsFormulaGuideSubtitle": "Explanation of grade calculation and retakes",
+  "formulaGuideBody": "1. Semester GPS is historical: Σ(weight × credits) / Σ credits of all entries in that semester (including E grades and retakes).\n\n2. GPA: Σ(weight × credits) / Σ credits using one effective entry per course group (highest grade by default, or latest grade).\n\n3. Grade E always requires a retake (not passed). Before retaking, E is included in the GPA denominator (weight 0). After retaking, the new grade replaces E in GPA while historical Semester GPS remains unchanged.\n\n4. Completed Credits and Completed Courses count each course group whose effective entry passes (≥ minimum passing grade).",
+  "settingsNotificationsTitle": "Reminders & Notifications",
+  "settingsNotificationsSubtitle": "Configure schedule, task, and event reminders",
+  "settingsNotifyScheduleLabel": "Class Schedule Reminders",
+  "settingsNotifyTaskLabel": "Task Deadline Reminders",
+  "settingsNotifyEventLabel": "Campus Event Reminders",
+  "settingsReminderOffsetMinutes": "{minutes} min before",
+  "@settingsReminderOffsetMinutes": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "toastNotificationsSaved": "Notification settings saved",
+  "settingsBackupTitle": "Backup & Restore Data",
+  "settingsBackupSubtitle": "Export or restore all data as JSON (Offline)",
+  "backupNeverInfo": "No backup created yet",
+  "backupLastAtInfo": "Last backup: {dateTime}",
+  "@backupLastAtInfo": {
+    "placeholders": {
+      "dateTime": {
+        "type": "String"
+      }
+    }
+  },
+  "backupGuideBody": "Keep your backup JSON file in a safe folder or personal cloud drive. When switching devices, select that file via Restore.",
+  "actionCreateBackup": "Create JSON Backup",
+  "actionRestoreBackup": "Select File & Restore",
+  "restoreConfirmTitle": "Restore Data from Backup?",
+  "restoreConfirmDescription": "All current local data will be replaced by the backup file contents. Slide to confirm restoration.",
+  "slideToRestoreLabel": "Slide to Restore",
+  "toastBackupCreated": "Backup created successfully",
+  "toastRestoreSuccess": "Restore completed. All data has been restored.",
+  "errorBackupInvalid": "Invalid file or mismatched schema version. Existing data remains safe.",
+  "settingsAboutAppTitle": "About Application",
+  "settingsAboutAppSubtitle": "Version 1.0.0 · MIT License · Open Source",
+  "aboutAppDescription": "Nguliah is an ad-free, offline-first Android application helping university students manage grades, schedules, attendance, tasks, and campus events.",
+  "aboutAppLicenseLabel": "License: MIT License (Public GitHub Repository)",
+  "settingsAboutDevTitle": "About Developer & Support",
+  "settingsAboutDevSubtitle": "Developer profile & voluntary support (QRIS)",
+  "aboutDevDescription": "Openly developed for Indonesian university students. If this app helps you, you can support the developer via QRIS below.",
+  "qrisCardTitle": "Support via QRIS (Buy Me a Coffee)",
+  "semanticsQrisImage": "Static QRIS payment code image to support the Nguliah developer",
+  "permissionMediaDeniedBanner": "Camera/gallery permission denied. Use profile initials or enable permission in System Settings.",
+  "permissionStorageDeniedBanner": "Storage/file picker permission denied. Enable permission in System Settings to continue.",
+  "authRestoreOption": "Already have a backup? Restore Data",
+  "homeUpcomingEventsTitle": "Events in the Next 7 Days",
+  "homeUpcomingEventsEmpty": "No campus events scheduled for the next 7 days.",
+  "homeChartToggleBar": "Bar Chart",
+  "homeChartTogglePie": "Pie Chart (%)",
+  "attendanceStatusDispensation": "Dispensation",
+  "attendanceRestrictedOutsideClass": "Attendance can only be recorded during class hours ({timeRange}). Outside class hours, it is recorded as Absent.",
+  "@attendanceRestrictedOutsideClass": {
+    "placeholders": {
+      "timeRange": {
+        "type": "String"
+      }
+    }
+  },
+  "attendanceCountMeetingsLabel": "Total Meetings",
+  "attendanceCountPresentLabel": "Total Attendance",
+  "attendancePercentageLabel": "Attendance Rate",
+  "attendanceSlideToConfirmEdit": "Slide to Save Changes",
+  "taskConfirmCompleteTitle": "Mark Task as Completed?",
+  "taskConfirmCompleteMessage": "Task \"{taskTitle}\" will be moved to completed list.",
+  "@taskConfirmCompleteMessage": {
+    "placeholders": {
+      "taskTitle": {
+        "type": "String"
+      }
+    }
+  },
+  "taskConfirmUncompleteTitle": "Return Task to Active?",
+  "taskConfirmUncompleteMessage": "Task \"{taskTitle}\" will be returned to active list.",
+  "@taskConfirmUncompleteMessage": {
+    "placeholders": {
+      "taskTitle": {
+        "type": "String"
+      }
+    }
+  },
+  "eventTabActive": "Active Events",
+  "eventTabCompleted": "Completed (Recap)",
+  "eventFieldLocationLabel": "Event Location",
+  "eventFieldLocationHint": "Example: Hall Building B / Zoom",
+  "settingsThemeModeTitle": "Theme Mode",
+  "settingsThemeModeLight": "Light",
+  "settingsThemeModeDark": "Dark",
+  "settingsCustomReminderMinutesLabel": "Reminder Time (Minutes Before)",
+  "settingsCustomReminderMinutesHint": "Example: 30",
+  "toastDeviceNotificationActive": "Device notification permission is active",
+  "toastDeviceNotificationDenied": "Device notification permission denied/not enabled",
+  "settingsEnableDeviceNotification": "Device Notifications",
+  "settingsEnableDeviceNotificationSubtitle": "Manage system notification settings & permissions",
+  "settingsOpenSystemSettings": "Open System Notification Settings",
+  "settingsLogoutTitle": "Log Out",
+  "settingsLogoutSubtitle": "Clear profile session and return to Login screen",
+  "settingsLogoutDialogTitle": "Log out of Account?",
+  "settingsLogoutDialogMessage": "Academic data remains safely on this device. You will be redirected to the Login screen.",
+  "settingsAddGradeConversion": "Add Grade Index",
+  "settingsGradeIndexLabel": "Grade Letter Index",
+  "settingsGradeIndexHint": "Example: A-",
+  "settingsGradeWeightLabel": "Weight",
+  "settingsGradeWeightHint": "Example: 3.75",
+  "settingsDeleteGradeIndexTitle": "Delete Grade Index?",
+  "settingsDeleteGradeIndexMessage": "Index \"{index}\" will be deleted from conversion rules.",
+  "@settingsDeleteGradeIndexMessage": {
+    "placeholders": {
+      "index": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsDeveloperPhotoGuide": "Place developer photo at assets/images/developer.png and QRIS photo at assets/images/qris.png",
+  "settingsExportSectionTitle": "Export Documents & Data",
+  "settingsExportStatsTitle": "Export Statistics & GPA",
+  "settingsExportGradesTitle": "Export Transcript (All Semesters)",
+  "settingsExportScheduleTitle": "Export Schedule & Attendance Recap",
+  "gradeFormSlideDropdownHint": "Select Grade Index",
+  "gradeFieldSemesterTypedHint": "1 - 14",
+  "gradesIpkTitle": "GPA",
+  "gradesCompletedSksTitle": "Completed Credits",
+  "gradesCompletedCoursesTitle": "Completed Courses",
+  "taskCancelConfirmTitle": "Revert Task Completion?",
+  "taskCompleteConfirmTitle": "Complete Course Task?",
+  "taskCancelConfirmMessage": "The task status will be changed back to active.",
+  "taskCompleteConfirmMessage": "Have you completed this task?",
+  "fieldRequired": "This field is required",
+  "attendanceMeetingHistoryTitle": "Course Meeting Details",
+  "attendanceOutsideHoursWarning": "Attendance outside class hours is automatically recorded as Absent.",
+  "settingsEditGradeConversion": "Edit Grade Index",
+  "taskActionUncomplete": "Undo Complete",
+  "emptyCompletedEventsTitle": "No completed events",
+  "emptyCompletedEventsDescription": "No completed campus events yet.",
+  "settingsHideScoresTitle": "Hide Academic Scores",
+  "settingsHideScoresSubtitle": "Censor GPA, GPS, completed credits and courses with asterisks *",
+  "settingsConfirmSaveConversionTitle": "Save Grade Conversion?",
+  "settingsConfirmSaveConversionMessage": "Changes to grade conversion will affect GPA and GPS calculations. Save now?",
+  "settingsConfirmDeleteConversionTitle": "Delete Grade Index?",
+  "settingsConfirmDeleteConversionMessage": "Are you sure you want to delete this grade index from the conversion list?",
+  "shortIpsLabel": "GPS",
+  "shortIpkLabel": "GPA"
+}

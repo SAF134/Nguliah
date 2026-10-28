@@ -1,0 +1,621 @@
+{
+  "@@locale": "id",
+  "appTitle": "Nguliah",
+  "appTagline": "Kelola nilai, jadwal, tugas, dan acara akademik dalam satu tempat.",
+  "splashLoading": "Memuat data akademik...",
+  "navHome": "Beranda",
+  "navGrades": "Nilai",
+  "navSchedule": "Jadwal",
+  "navTasks": "Tugas",
+  "navEvents": "Acara",
+  "screenOnboardingTitle": "Kenali Nguliah",
+  "screenOnboardingSubtitle": "4 langkah mudah mengatur kuliahmu secara offline.",
+  "onboardingSlide1Title": "Pantau Nilai & IPK",
+  "onboardingSlide1Desc": "Catat nilai tiap semester, kelola mata kuliah mengulang, dan lihat perhitungan IPS serta IPK secara akurat.",
+  "onboardingSlide2Title": "Jadwal & Presensi Kuliah",
+  "onboardingSlide2Desc": "Atur jadwal mingguan, deteksi bentrok jam kuliah, dan rekap kehadiran setiap pertemuan.",
+  "onboardingSlide3Title": "Lacak Tugas & Tenggat",
+  "onboardingSlide3Desc": "Pantau sisa waktu pengumpulan tugas lewat kalender penanda dan pengingat tepat waktu.",
+  "onboardingSlide4Title": "Kelola Acara Kampus",
+  "onboardingSlide4Desc": "Susun agenda organisasi dan kegiatan non-kuliah dalam kalender bulanan yang rapi.",
+  "onboardingSlideIndicator": "Slide {current} dari {total}",
+  "@onboardingSlideIndicator": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "slideToStartLabel": "Geser untuk Mulai",
+  "slideToConfirmAction": "Konfirmasi tanpa geser",
+  "screenAuthTitle": "Profil Mahasiswa",
+  "screenAuthSubtitle": "Isi biodata singkat untuk mempersonalisasi aplikasimu. Semua data tersimpan di perangkat ini.",
+  "fieldFullNameLabel": "Nama Lengkap",
+  "fieldFullNameHint": "Contoh: Rani Putri",
+  "fieldFullNameError": "Nama lengkap wajib diisi. Masukkan minimal 2 karakter.",
+  "fieldUniversityLabel": "Universitas / Perguruan Tinggi",
+  "fieldUniversityHint": "Contoh: Universitas Indonesia",
+  "fieldUniversityError": "Universitas wajib diisi. Masukkan nama kampusmu.",
+  "fieldFacultyLabel": "Fakultas / Jurusan",
+  "fieldFacultyHint": "Contoh: Fakultas Ilmu Komputer",
+  "fieldFacultyError": "Fakultas wajib diisi. Masukkan nama fakultas atau jurusanmu.",
+  "fieldMajorLabel": "Program Studi",
+  "fieldMajorHint": "Contoh: Sistem Informasi",
+  "fieldMajorError": "Program studi wajib diisi. Masukkan nama program studimu.",
+  "fieldEntryYearLabel": "Tahun Masuk",
+  "fieldEntryYearHint": "Pilih tahun angkatan",
+  "fieldEntryYearError": "Tahun masuk wajib dipilih. Pilih tahun angkatan yang valid.",
+  "screenHomeTitle": "Beranda",
+  "screenGradesTitle": "Nilai Akademik",
+  "screenScheduleTitle": "Jadwal Kuliah",
+  "screenTasksTitle": "Tugas Kuliah",
+  "screenEventsTitle": "Acara Kampus",
+  "screenSettingsTitle": "Pengaturan",
+  "actionContinue": "Lanjut",
+  "actionSkip": "Lewati",
+  "actionStart": "Mulai Sekarang",
+  "actionSaveAndStart": "Simpan & Mulai",
+  "actionYes": "Iya",
+  "actionNo": "Tidak",
+  "actionReset": "Reset",
+  "actionConfirm": "Konfirmasi",
+  "actionSave": "Simpan",
+  "actionCancel": "Batal",
+  "actionDelete": "Hapus",
+  "actionEdit": "Ubah",
+  "actionUndo": "Urungkan",
+  "actionRetake": "Ulang",
+  "actionClose": "Tutup",
+  "actionOpenSettings": "Buka Pengaturan",
+  "actionRetry": "Coba Lagi",
+  "actionAddFirstGrade": "Tambah Nilai Pertama",
+  "actionAddGrade": "Tambah Nilai",
+  "actionAddSchedule": "Tambah Jadwal",
+  "actionAddTask": "Tambah Tugas",
+  "actionAddEvent": "Tambah Acara",
+  "actionRecordAttendance": "Isi Presensi",
+  "actionAttendanceRecap": "Rekap Presensi",
+  "emptyHomeTitle": "Belum ada data akademik",
+  "emptyHomeDescription": "Mulai catat nilai atau jadwal kuliahmu agar ringkasan tampil di sini.",
+  "emptyGradesTitle": "Belum ada catatan nilai",
+  "emptyGradesDescription": "Tambahkan mata kuliah dan nilai semestermu untuk menghitung IPS dan IPK otomatis.",
+  "emptyScheduleTitle": "Belum ada jadwal",
+  "emptyScheduleDescription": "Susun jadwal mingguanmu agar tidak terlewat sesi perkuliahan.",
+  "emptyTasksTitle": "Tidak ada tugas",
+  "emptyTasksDescription": "Semua tugas sudah terkendali. Tambahkan tugas baru jika ada tenggat mendatang.",
+  "emptyCompletedTasksTitle": "Belum ada yang selesai",
+  "emptyCompletedTasksDescription": "Tandai tugas aktif sebagai selesai untuk melihat riwayat rekap penyelesaian di sini.",
+  "emptyEventsTitle": "Tidak ada acara",
+  "emptyEventsDescription": "Belum ada kegiatan organisasi atau acara kampus pada tanggal terpilih.",
+  "emptySettingsDescription": "Kelola profil, bahasa, konversi nilai, notifikasi, dan cadangan data.",
+  "errorLoadData": "Gagal memuat data",
+  "permissionNotificationDeniedBanner": "Izin notifikasi ditolak. Aktifkan di pengaturan agar pengingat tampil tepat waktu.",
+  "statIpkLabel": "IPK Kumulatif",
+  "statIpsSemesterLabel": "IPS {semester}",
+  "@statIpsSemesterLabel": {
+    "placeholders": {
+      "semester": {
+        "type": "int"
+      }
+    }
+  },
+  "statCompletedSksLabel": "SKS Selesai",
+  "statCompletedCoursesLabel": "MK Selesai",
+  "filterAllSemesters": "Semua",
+  "semesterLabel": "Semester {semester}",
+  "@semesterLabel": {
+    "placeholders": {
+      "semester": {
+        "type": "int"
+      }
+    }
+  },
+  "semesterShortLabel": "Sem {semester}",
+  "@semesterShortLabel": {
+    "placeholders": {
+      "semester": {
+        "type": "int"
+      }
+    }
+  },
+  "sksUnit": "{sks} SKS",
+  "@sksUnit": {
+    "placeholders": {
+      "sks": {
+        "type": "int"
+      }
+    }
+  },
+  "gradeNeedsRetake": "Perlu mengulang",
+  "gradeRetakeBadge": "Perbaikan",
+  "gradeUsedInIpk": "Dipakai di IPK",
+  "gradeNotUsedInIpk": "Riwayat (tidak dipakai di IPK)",
+  "gradeRetakeOfInfo": "Mengulang dari Sem {semester} ({gradeIndex})",
+  "@gradeRetakeOfInfo": {
+    "placeholders": {
+      "semester": {
+        "type": "int"
+      },
+      "gradeIndex": {
+        "type": "String"
+      }
+    }
+  },
+  "gradeFormAddTitle": "Tambah Nilai",
+  "gradeFormEditTitle": "Ubah Nilai",
+  "gradeFieldCourseNameLabel": "Nama Mata Kuliah",
+  "gradeFieldCourseNameHint": "Contoh: Statistika Dasar",
+  "gradeFieldCourseNameError": "Nama mata kuliah wajib diisi. Masukkan nama mata kuliah.",
+  "gradeFieldSemesterLabel": "Semester (1–14)",
+  "gradeFieldSemesterError": "Semester tidak valid. Pilih semester antara 1 hingga 14.",
+  "gradeFieldSksLabel": "Jumlah SKS",
+  "gradeFieldSksHint": "Contoh: 3",
+  "gradeFieldSksError": "SKS tidak valid. Masukkan angka SKS lebih dari 0.",
+  "gradeFieldIndexLabel": "Indeks Nilai",
+  "gradeFieldRetakeLabel": "Mengulang / Perbaikan dari (Opsional)",
+  "gradeRetakeNoneOption": "Bukan mengulang (MK baru)",
+  "gradeRetakeSuggestionBanner": "Ditemukan MK \"{courseName}\" di Semester {semester} (nilai {gradeIndex}). Tautkan sebagai mengulang?",
+  "@gradeRetakeSuggestionBanner": {
+    "placeholders": {
+      "courseName": {
+        "type": "String"
+      },
+      "semester": {
+        "type": "int"
+      },
+      "gradeIndex": {
+        "type": "String"
+      }
+    }
+  },
+  "gradeRetakeLinkAction": "Tautkan",
+  "gradeDeleteDialogTitle": "Hapus Nilai Mata Kuliah?",
+  "gradeDeleteDialogMessage": "Entri \"{courseName}\" (Semester {semester}) akan dihapus dan IPK akan dihitung ulang.",
+  "@gradeDeleteDialogMessage": {
+    "placeholders": {
+      "courseName": {
+        "type": "String"
+      },
+      "semester": {
+        "type": "int"
+      }
+    }
+  },
+  "toastGradeSaved": "Nilai tersimpan",
+  "toastGradeDeleted": "Nilai dihapus",
+  "semanticsCourseGradeCard": "{courseName}, {sks} SKS, nilai {gradeIndex}, semester {semester}",
+  "@semanticsCourseGradeCard": {
+    "placeholders": {
+      "courseName": {
+        "type": "String"
+      },
+      "sks": {
+        "type": "int"
+      },
+      "gradeIndex": {
+        "type": "String"
+      },
+      "semester": {
+        "type": "int"
+      }
+    }
+  },
+  "semanticsGradeIndexOption": "Indeks nilai {gradeIndex}",
+  "@semanticsGradeIndexOption": {
+    "placeholders": {
+      "gradeIndex": {
+        "type": "String"
+      }
+    }
+  },
+  "dayAll": "Semua",
+  "dayMonday": "Senin",
+  "dayTuesday": "Selasa",
+  "dayWednesday": "Rabu",
+  "dayThursday": "Kamis",
+  "dayFriday": "Jumat",
+  "daySaturday": "Sabtu",
+  "daySunday": "Minggu",
+  "dayShortMon": "Sen",
+  "dayShortTue": "Sel",
+  "dayShortWed": "Rab",
+  "dayShortThu": "Kam",
+  "dayShortFri": "Jum",
+  "dayShortSat": "Sab",
+  "dayShortSun": "Min",
+  "scheduleFormAddTitle": "Tambah Jadwal Kuliah",
+  "scheduleFormEditTitle": "Ubah Jadwal Kuliah",
+  "scheduleFieldDayLabel": "Hari Kuliah",
+  "scheduleFieldStartTimeLabel": "Jam Mulai",
+  "scheduleFieldStartTimeHint": "08:00",
+  "scheduleFieldEndTimeLabel": "Jam Selesai",
+  "scheduleFieldEndTimeHint": "10:00",
+  "scheduleFieldTimeFormatError": "Format jam tidak valid. Gunakan format JJ:MM (contoh 08:30).",
+  "scheduleFieldEndTimeError": "Jam selesai harus lebih besar dari jam mulai.",
+  "scheduleFieldRoomLabel": "Ruangan",
+  "scheduleFieldRoomHint": "Contoh: Gedung A R.302",
+  "scheduleFieldRoomError": "Ruangan wajib diisi. Masukkan nama atau kode ruangan.",
+  "scheduleConflictWarning": "Jadwal bentrok dengan \"{courseName}\" ({timeRange}). Kamu tetap bisa menyimpan jadwal ini.",
+  "@scheduleConflictWarning": {
+    "placeholders": {
+      "courseName": {
+        "type": "String"
+      },
+      "timeRange": {
+        "type": "String"
+      }
+    }
+  },
+  "scheduleDeleteDialogTitle": "Hapus Jadwal Kuliah?",
+  "scheduleDeleteDialogMessage": "Jadwal \"{courseName}\" ({dayName}) akan dihapus.",
+  "@scheduleDeleteDialogMessage": {
+    "placeholders": {
+      "courseName": {
+        "type": "String"
+      },
+      "dayName": {
+        "type": "String"
+      }
+    }
+  },
+  "toastScheduleSaved": "Jadwal tersimpan",
+  "toastScheduleDeleted": "Jadwal dihapus",
+  "attendanceSheetTitle": "Presensi Kuliah",
+  "attendanceDateLabel": "Tanggal Pertemuan",
+  "attendanceStatusLabel": "Status Kehadiran",
+  "attendanceStatusPresent": "Hadir",
+  "attendanceStatusSick": "Sakit",
+  "attendanceStatusPermission": "Izin",
+  "attendanceStatusAbsent": "Alfa",
+  "attendanceNotesLabel": "Keterangan / Catatan Pertemuan",
+  "attendanceNotesHint": "Contoh: Membahas materi Bab 3",
+  "attendanceRecordedAtInfo": "Dicatat otomatis saat disimpan",
+  "toastAttendanceSaved": "Presensi tersimpan",
+  "attendanceRecapTitle": "Rekap Kehadiran per MK",
+  "attendanceRecapEmpty": "Belum ada catatan presensi kuliah.",
+  "attendanceRecapSummary": "{presentCount} Hadir dari {totalCount} sesi ({percentage}%)",
+  "@attendanceRecapSummary": {
+    "placeholders": {
+      "presentCount": {
+        "type": "int"
+      },
+      "totalCount": {
+        "type": "int"
+      },
+      "percentage": {
+        "type": "String"
+      }
+    }
+  },
+  "attendanceRecapBreakdown": "Hadir: {present} · Sakit: {sick} · Izin: {permission} · Alfa: {absent}",
+  "@attendanceRecapBreakdown": {
+    "placeholders": {
+      "present": {
+        "type": "int"
+      },
+      "sick": {
+        "type": "int"
+      },
+      "permission": {
+        "type": "int"
+      },
+      "absent": {
+        "type": "int"
+      }
+    }
+  },
+  "semanticsScheduleCard": "{courseName}, {dayName} pukul {timeRange}, ruangan {room}",
+  "@semanticsScheduleCard": {
+    "placeholders": {
+      "courseName": {
+        "type": "String"
+      },
+      "dayName": {
+        "type": "String"
+      },
+      "timeRange": {
+        "type": "String"
+      },
+      "room": {
+        "type": "String"
+      }
+    }
+  },
+  "calendarPrevMonth": "Bulan sebelumnya",
+  "calendarNextMonth": "Bulan berikutnya",
+  "calendarClearDateFilter": "Tampilkan semua tanggal",
+  "semanticsCalendarDayMarkers": "Tanggal {day}/{month}/{year}, {count} penanda",
+  "@semanticsCalendarDayMarkers": {
+    "placeholders": {
+      "day": {
+        "type": "int"
+      },
+      "month": {
+        "type": "int"
+      },
+      "year": {
+        "type": "int"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "taskTabActive": "Aktif",
+  "taskTabCompleted": "Selesai (Rekap)",
+  "taskFormAddTitle": "Tambah Tugas Kuliah",
+  "taskFormEditTitle": "Ubah Tugas Kuliah",
+  "taskFieldDescriptionLabel": "Deskripsi Tugas",
+  "taskFieldDescriptionHint": "Contoh: Laporan Praktikum Modul 2",
+  "taskFieldDescriptionError": "Deskripsi tugas wajib diisi. Masukkan deskripsi singkat tugas.",
+  "taskFieldDueDateLabel": "Tanggal Tenggat",
+  "taskFieldDueDateHint": "2026-11-05",
+  "taskFieldDueDateError": "Format tanggal tidak valid. Gunakan format TTTT-BB-HH.",
+  "taskFieldDueTimeLabel": "Jam Tenggat",
+  "taskFieldDueTimeHint": "23:59",
+  "taskStatusOverdue": "Terlambat",
+  "taskStatusUrgentHours": "Mendesak · {hours} jam lagi",
+  "@taskStatusUrgentHours": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
+  "taskStatusRemainingDays": "{days} hari lagi",
+  "@taskStatusRemainingDays": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "taskCompletedAtLabel": "Selesai pada {dateTime}",
+  "@taskCompletedAtLabel": {
+    "placeholders": {
+      "dateTime": {
+        "type": "String"
+      }
+    }
+  },
+  "taskMarkComplete": "Tandai tugas selesai",
+  "taskUnmarkComplete": "Batalkan tanda selesai",
+  "taskDeleteDialogTitle": "Hapus Tugas Kuliah?",
+  "taskDeleteDialogMessage": "Tugas \"{courseName}\" akan dihapus.",
+  "@taskDeleteDialogMessage": {
+    "placeholders": {
+      "courseName": {
+        "type": "String"
+      }
+    }
+  },
+  "toastTaskSaved": "Tugas tersimpan",
+  "toastTaskCompleted": "Tugas selesai",
+  "toastTaskUncompleted": "Tugas dikembalikan ke daftar aktif",
+  "toastTaskDeleted": "Tugas dihapus",
+  "eventFormAddTitle": "Tambah Acara Kampus",
+  "eventFormEditTitle": "Ubah Acara Kampus",
+  "eventFieldNameLabel": "Nama Acara",
+  "eventFieldNameHint": "Contoh: Rapat Himpunan Mahasiswa",
+  "eventFieldNameError": "Nama acara wajib diisi. Masukkan nama acara.",
+  "eventFieldDescriptionLabel": "Deskripsi Acara",
+  "eventFieldDescriptionHint": "Contoh: Pembahasan program kerja semester ini",
+  "eventFieldDescriptionError": "Deskripsi acara wajib diisi. Masukkan deskripsi acara.",
+  "eventFieldDateLabel": "Tanggal Acara",
+  "eventFieldDateHint": "2026-11-10",
+  "eventDeleteDialogTitle": "Hapus Acara?",
+  "eventDeleteDialogMessage": "Acara \"{eventName}\" akan dihapus.",
+  "@eventDeleteDialogMessage": {
+    "placeholders": {
+      "eventName": {
+        "type": "String"
+      }
+    }
+  },
+  "toastEventSaved": "Acara tersimpan",
+  "toastEventDeleted": "Acara dihapus",
+  "semanticsLoading": "Sedang memuat",
+  "semanticsOpenSettings": "Buka Pengaturan Profil dan Aplikasi",
+  "homeGreeting": "Halo, {name}!",
+  "@homeGreeting": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "homeDefaultStudentName": "Mahasiswa",
+  "homeTodayScheduleTitle": "Jadwal Hari Ini",
+  "homeTodayScheduleEmpty": "Tidak ada jadwal kuliah hari ini.",
+  "homeWeekTasksTitle": "Tugas 7 Hari ke Depan",
+  "homeWeekTasksEmpty": "Tidak ada tenggat tugas dalam 7 hari ke depan.",
+  "homeIpsTrendTitle": "Tren IPS per Semester",
+  "homeIpsTrendEmpty": "Tambahkan nilai untuk melihat grafik tren IPS.",
+  "homeGradeDistributionTitle": "Sebaran Nilai",
+  "homeGradeDistributionEmpty": "Belum ada sebaran nilai yang tercatat.",
+  "homeChartTableSummaryLabel": "Ringkasan Teks Grafik",
+  "actionExport": "Ekspor",
+  "exportSheetTitle": "Ekspor Dokumen / Gambar",
+  "exportScopeLabel": "Cakupan Data",
+  "exportScopeHomeStats": "Statistik Beranda (IPK & Sebaran Nilai)",
+  "exportScopeAllGrades": "Transkrip Nilai Semua Semester & IPK",
+  "exportScopeScheduleAttendance": "Jadwal Mingguan & Rekap Presensi",
+  "exportFormatLabel": "Format Berkas",
+  "exportFormatPdf": "PDF",
+  "exportFormatPng": "PNG (Gambar)",
+  "exportFormatJpg": "JPG",
+  "exportGenerateAndShare": "Ekspor",
+  "exportProgressLoading": "Membuat berkas ekspor...",
+  "toastExportSuccess": "Berkas ekspor siap dibagikan",
+  "errorExportFailed": "Gagal membuat berkas ekspor",
+  "settingsGroupAccount": "Akun & Profil",
+  "settingsGroupPreferences": "Preferensi Akademik",
+  "settingsGroupData": "Pengingat & Data Lokal",
+  "settingsGroupAbout": "Tentang & Dukungan",
+  "settingsEditProfileTitle": "Profil Mahasiswa",
+  "settingsEditProfileSubtitle": "Ubah biodata dan foto profil lokal",
+  "settingsPickPhotoGallery": "Pilih dari Galeri",
+  "settingsPickPhotoCamera": "Ambil Foto Kamera",
+  "settingsRemovePhoto": "Hapus Foto",
+  "toastProfileUpdated": "Profil diperbarui",
+  "settingsLanguageTitle": "Bahasa Aplikasi",
+  "settingsLanguageIndonesian": "Indonesia",
+  "settingsLanguageEnglish": "English",
+  "toastLanguageChanged": "Bahasa berhasil diubah",
+  "settingsConversionTitle": "Konversi Nilai",
+  "settingsConversionSubtitle": "Bobot indeks nilai dan kustomisasi konversi",
+  "settingsMinPassingGradeLabel": "Nilai Lulus Minimum",
+  "settingsRetakeRuleLabel": "Aturan Nilai Mengulang (IPK)",
+  "settingsRetakeRuleHighest": "Nilai Tertinggi (Default)",
+  "settingsRetakeRuleLatest": "Nilai Terbaru",
+  "settingsResetConversion": "Reset",
+  "toastConversionSaved": "Aturan konversi disimpan & IPK dihitung ulang",
+  "settingsFormulaGuideTitle": "Panduan Rumus IPS & IPK",
+  "settingsFormulaGuideSubtitle": "Penjelasan perhitungan nilai dan kasus mengulang",
+  "formulaGuideBody": "1. IPS bersifat historis: Σ(bobot × SKS) / Σ SKS dari semua entri pada semester tersebut (termasuk nilai E dan perbaikan).\n\n2. IPK Kumulatif: Σ(bobot × SKS) / Σ SKS dari satu entri terpakai per kelompok mata kuliah (nilai tertinggi secara default, atau nilai terbaru).\n\n3. Nilai E selalu wajib mengulang (tidak lulus). Sebelum diulang, nilai E tetap masuk pembagi IPK (bobot 0). Setelah diulang, nilai baru menggantikan nilai E di IPK, sementara IPS semester lama tidak berubah.\n\n4. SKS Selesai dan MK Selesai hanya menghitung kelompok MK yang entri terpakainya lulus (≥ nilai lulus minimum).",
+  "settingsNotificationsTitle": "Pengingat & Notifikasi",
+  "settingsNotificationsSubtitle": "Atur pengingat jadwal, tugas, dan acara",
+  "settingsNotifyScheduleLabel": "Pengingat Jadwal Kuliah",
+  "settingsNotifyTaskLabel": "Pengingat Tenggat Tugas",
+  "settingsNotifyEventLabel": "Pengingat Acara Kampus",
+  "settingsReminderOffsetMinutes": "{minutes} menit sebelum",
+  "@settingsReminderOffsetMinutes": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "toastNotificationsSaved": "Pengaturan notifikasi disimpan",
+  "settingsBackupTitle": "Backup & Restore Data",
+  "settingsBackupSubtitle": "Cadangkan atau pulihkan seluruh data JSON (Offline)",
+  "backupNeverInfo": "Belum pernah melakukan backup",
+  "backupLastAtInfo": "Backup terakhir: {dateTime}",
+  "@backupLastAtInfo": {
+    "placeholders": {
+      "dateTime": {
+        "type": "String"
+      }
+    }
+  },
+  "backupGuideBody": "Simpan berkas JSON backup di folder aman atau penyimpanan cloud pribadimu. Saat ganti perangkat, pilih berkas tersebut lewat menu Restore.",
+  "actionCreateBackup": "Buat Backup JSON",
+  "actionRestoreBackup": "Pilih File & Restore",
+  "restoreConfirmTitle": "Pulihkan Data dari Backup?",
+  "restoreConfirmDescription": "Seluruh data lokal saat ini akan diganti dengan isi berkas backup. Geser untuk mengonfirmasi pemulihan.",
+  "slideToRestoreLabel": "Geser untuk Restore",
+  "toastBackupCreated": "Backup berhasil dibuat",
+  "toastRestoreSuccess": "Restore berhasil. Seluruh data telah dipulihkan.",
+  "errorBackupInvalid": "File tidak valid atau versi skema tidak cocok. Data lama tetap aman.",
+  "settingsAboutAppTitle": "Tentang Aplikasi",
+  "settingsAboutAppSubtitle": "Versi 1.0.0 · Lisensi MIT · Open Source",
+  "aboutAppDescription": "Nguliah adalah aplikasi Android offline-first bebas iklan untuk membantu mahasiswa mengelola nilai, jadwal, presensi, tugas, dan acara kampus secara mandiri.",
+  "aboutAppLicenseLabel": "Lisensi: MIT License (Repositori GitHub Publik)",
+  "settingsAboutDevTitle": "Tentang Pengembang & Dukungan",
+  "settingsAboutDevSubtitle": "Profil pengembang & dukungan sukarela (QRIS)",
+  "aboutDevDescription": "Dikembangkan secara terbuka untuk mahasiswa Indonesia. Jika aplikasi ini membantumu, kamu dapat memberikan dukungan sukarela melalui QRIS di bawah ini.",
+  "qrisCardTitle": "Dukung lewat QRIS (Buy Me a Coffee)",
+  "semanticsQrisImage": "Gambar kode pembayaran QRIS statis untuk mendukung pengembang Nguliah",
+  "permissionMediaDeniedBanner": "Izin kamera/galeri ditolak. Gunakan inisial profil atau aktifkan izin di Pengaturan Sistem.",
+  "permissionStorageDeniedBanner": "Izin penyimpanan/pemilih berkas ditolak. Aktifkan izin di Pengaturan Sistem untuk melanjutkan.",
+  "authRestoreOption": "Sudah punya backup? Pulihkan Data",
+  "homeUpcomingEventsTitle": "Acara 7 Hari ke Depan",
+  "homeUpcomingEventsEmpty": "Tidak ada acara kampus dalam 7 hari ke depan.",
+  "homeChartToggleBar": "Diagram Batang",
+  "homeChartTogglePie": "Pie Chart (%)",
+  "attendanceStatusDispensation": "Dispen",
+  "attendanceRestrictedOutsideClass": "Presensi hanya dapat diisi saat jam KBM berlangsung ({timeRange}). Di luar jam ini dicatat sebagai Alfa.",
+  "@attendanceRestrictedOutsideClass": {
+    "placeholders": {
+      "timeRange": {
+        "type": "String"
+      }
+    }
+  },
+  "attendanceCountMeetingsLabel": "Jumlah Pertemuan",
+  "attendanceCountPresentLabel": "Jumlah Kehadiran",
+  "attendancePercentageLabel": "Persentase Kehadiran",
+  "attendanceSlideToConfirmEdit": "Geser untuk Simpan Perubahan",
+  "taskConfirmCompleteTitle": "Tandai Tugas Selesai?",
+  "taskConfirmCompleteMessage": "Tugas \"{taskTitle}\" akan dipindahkan ke daftar selesai.",
+  "@taskConfirmCompleteMessage": {
+    "placeholders": {
+      "taskTitle": {
+        "type": "String"
+      }
+    }
+  },
+  "taskConfirmUncompleteTitle": "Kembalikan Status Tugas?",
+  "taskConfirmUncompleteMessage": "Tugas \"{taskTitle}\" akan dikembalikan ke daftar aktif.",
+  "@taskConfirmUncompleteMessage": {
+    "placeholders": {
+      "taskTitle": {
+        "type": "String"
+      }
+    }
+  },
+  "eventTabActive": "Acara Aktif",
+  "eventTabCompleted": "Selesai (Rekap)",
+  "eventFieldLocationLabel": "Lokasi Acara",
+  "eventFieldLocationHint": "Contoh: Gedung B R.201 / Zoom",
+  "settingsThemeModeTitle": "Mode Tema",
+  "settingsThemeModeLight": "Terang",
+  "settingsThemeModeDark": "Gelap",
+  "settingsCustomReminderMinutesLabel": "Waktu Pengingat (Menit Sebelum)",
+  "settingsCustomReminderMinutesHint": "Contoh: 30",
+  "toastDeviceNotificationActive": "Izin notifikasi perangkat aktif",
+  "toastDeviceNotificationDenied": "Izin notifikasi perangkat ditolak/belum diaktifkan",
+  "settingsEnableDeviceNotification": "Notifikasi Perangkat",
+  "settingsEnableDeviceNotificationSubtitle": "Kelola izin dan setelan notifikasi sistem",
+  "settingsOpenSystemSettings": "Buka Setelan Notifikasi Sistem",
+  "settingsLogoutTitle": "Keluar Akun",
+  "settingsLogoutSubtitle": "Hapus sesi profil dan kembali ke layar Masuk",
+  "settingsLogoutDialogTitle": "Keluar dari Akun?",
+  "settingsLogoutDialogMessage": "Data akademik tetap tersimpan di perangkat. Anda akan diarahkan kembali ke layar Masuk.",
+  "settingsAddGradeConversion": "Tambah Indeks Nilai",
+  "settingsGradeIndexLabel": "Indeks Huruf",
+  "settingsGradeIndexHint": "Contoh: A-",
+  "settingsGradeWeightLabel": "Bobot",
+  "settingsGradeWeightHint": "Contoh: 3.75",
+  "settingsDeleteGradeIndexTitle": "Hapus Indeks Nilai?",
+  "settingsDeleteGradeIndexMessage": "Indeks \"{index}\" akan dihapus dari aturan konversi.",
+  "@settingsDeleteGradeIndexMessage": {
+    "placeholders": {
+      "index": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsDeveloperPhotoGuide": "Letakkan foto profil pengembang di assets/images/developer.png dan foto QRIS di assets/images/qris.png",
+  "settingsExportSectionTitle": "Ekspor Dokumen & Data",
+  "settingsExportStatsTitle": "Ekspor Statistik & IPK",
+  "settingsExportGradesTitle": "Ekspor Transkrip Nilai (Semua Semester)",
+  "settingsExportScheduleTitle": "Ekspor Jadwal & Rekap Presensi",
+  "gradeFormSlideDropdownHint": "Pilih Indeks Nilai",
+  "gradeFieldSemesterTypedHint": "1 - 14",
+  "gradesIpkTitle": "IPK",
+  "gradesCompletedSksTitle": "SKS Selesai",
+  "gradesCompletedCoursesTitle": "MK Selesai",
+  "taskCancelConfirmTitle": "Batalkan Penyelesaian Tugas?",
+  "taskCompleteConfirmTitle": "Selesaikan Tugas Kuliah?",
+  "taskCancelConfirmMessage": "Status tugas ini akan diubah kembali menjadi aktif.",
+  "taskCompleteConfirmMessage": "Apakah tugas ini sudah selesai Anda kerjakan?",
+  "fieldRequired": "Bidang ini wajib diisi",
+  "attendanceMeetingHistoryTitle": "Detail Pertemuan Kuliah",
+  "attendanceOutsideHoursWarning": "Presensi di luar jam perkuliahan otomatis dicatat sebagai Alfa.",
+  "settingsEditGradeConversion": "Ubah Indeks Nilai",
+  "taskActionUncomplete": "Batalkan Selesai",
+  "emptyCompletedEventsTitle": "Belum ada acara selesai",
+  "emptyCompletedEventsDescription": "Belum ada rekapan acara kampus yang telah selesai.",
+  "settingsHideScoresTitle": "Sembunyikan Nilai Akademik",
+  "settingsHideScoresSubtitle": "Sensor IPK, IPS, SKS, dan MK selesai dengan tanda bintang *",
+  "settingsConfirmSaveConversionTitle": "Simpan Konversi Nilai?",
+  "settingsConfirmSaveConversionMessage": "Perubahan konversi nilai akan mempengaruhi perhitungan IPK dan IPS. Simpan sekarang?",
+  "settingsConfirmDeleteConversionTitle": "Hapus Indeks Nilai?",
+  "settingsConfirmDeleteConversionMessage": "Apakah Anda yakin ingin menghapus indeks nilai ini dari daftar konversi?",
+  "shortIpsLabel": "IPS",
+  "shortIpkLabel": "IPK"
+}
