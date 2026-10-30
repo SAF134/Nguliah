@@ -111,32 +111,39 @@ class UnifiedAcademicSummaryCard extends ConsumerWidget {
               ),
               const SizedBox(width: AppTokens.space8),
 
-              // Nilai IPK & IPS di pojok kanan paling tepi
-              FittedBox(
-                fit: BoxFit.scaleDown,
-                alignment: Alignment.centerRight,
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.end,
-                  mainAxisSize: MainAxisSize.min,
-                  children: <Widget>[
-                    if (displayIps != null) ...<Widget>[
-                      _buildScoreBadge(
-                        context: context,
-                        prefix: l10n.shortIpsLabel,
-                        score: displayIps,
-                        textStyle: AppTypography.title(palette.primary),
-                      ),
-                      const SizedBox(height: AppTokens.space4),
-                    ],
-                    _buildScoreBadge(
-                      context: context,
-                      prefix: displayIps != null ? l10n.shortIpkLabel : null,
-                      score: displayIpk,
-                      textStyle: (displayIps != null
-                          ? AppTypography.title(palette.primary)
-                          : AppTypography.h1(palette.primary)),
+              // Nilai IPK & IPS di pojok kanan paling tepi (tahan overflow layar 320dp & font 200%)
+              Flexible(
+                child: Align(
+                  alignment: Alignment.centerRight,
+                  child: FittedBox(
+                    fit: BoxFit.scaleDown,
+                    alignment: Alignment.centerRight,
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.end,
+                      mainAxisSize: MainAxisSize.min,
+                      children: <Widget>[
+                        if (displayIps != null) ...<Widget>[
+                          _buildScoreBadge(
+                            context: context,
+                            prefix: l10n.shortIpsLabel,
+                            score: displayIps,
+                            textStyle: AppTypography.title(palette.primary),
+                          ),
+                          const SizedBox(height: AppTokens.space4),
+                        ],
+                        _buildScoreBadge(
+                          context: context,
+                          prefix: displayIps != null
+                              ? l10n.shortIpkLabel
+                              : null,
+                          score: displayIpk,
+                          textStyle: (displayIps != null
+                              ? AppTypography.title(palette.primary)
+                              : AppTypography.h1(palette.primary)),
+                        ),
+                      ],
                     ),
-                  ],
+                  ),
                 ),
               ),
             ],
