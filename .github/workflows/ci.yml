@@ -65,8 +65,8 @@ jobs:
           flutter pub get
           flutter gen-l10n
 
-      - name: Build Release APK
-        run: flutter build apk --release
+      - name: Build Release APKs (Split per ABI)
+        run: flutter build apk --release --split-per-abi
 
       - name: Build Release AppBundle (AAB)
         run: flutter build appbundle --release
@@ -76,5 +76,5 @@ jobs:
         with:
           name: nguliah-release-bundles
           path: |
-            build/app/outputs/flutter-apk/app-release.apk
+            build/app/outputs/flutter-apk/*.apk
             build/app/outputs/bundle/release/app-release.aab
